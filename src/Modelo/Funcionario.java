@@ -10,5 +10,5 @@ package Modelo;
  * @author Maria Vitória
  */
 public class Funcionario {
-    
+
 }
