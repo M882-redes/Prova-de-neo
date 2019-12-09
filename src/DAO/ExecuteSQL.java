@@ -5,10 +5,18 @@
  */
 package DAO;
 
-/**
- *
- * @author Maria Vitória
- */
+import java.sql.*;
+
 public class ExecuteSQL {
+    public Connection con;
+    public ExecuteSQL(Connection con) {
+        setCon(con);
+    }
+    public Connection getCon() {
+        return con;
+    }
     
+    public void setCon(Connection con) {
+        this.con = con;
+    }
 }
