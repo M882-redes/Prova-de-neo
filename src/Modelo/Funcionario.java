@@ -10,9 +10,6 @@ package Modelo;
  * @author Maria Vitória
  */
 public class Funcionario {
-<<<<<<< HEAD
-
-=======
      private int cod;
      private String nome;
      private String login;
@@ -49,8 +46,27 @@ public class Funcionario {
     public void setSenha(String senha) {
         this.senha = senha;
     }
+
+    public void setCodigo(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setTitulo(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setAno(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setDuracao(String string) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setCod_categoria(int aInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
      
      
-     
->>>>>>> dba54b012c8f89a4d2018664ccc6ad2c10c73bd4
+
 }

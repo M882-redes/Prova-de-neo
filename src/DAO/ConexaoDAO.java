@@ -13,7 +13,7 @@ public class ConexaoDAO {
         try{
             Class.forName("com.mysql.jdbc.Driver");
              String url = "jdbc:mysql://localhost/locadora";
-             con = DriverManager.getConnection(url, "root", "123");
+             con = DriverManager.getConnection(url, "root", "");
              
             
         } catch (Exception e) {
@@ -32,6 +32,10 @@ public class ConexaoDAO {
         } catch (Exception e) {
             System.out.println();
         }
+    }
+
+    public static Connection AbrirConexaoDAO() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
     
